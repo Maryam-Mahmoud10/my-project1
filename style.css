@@ -1,0 +1,87 @@
+nav {
+
+    background-color: rgb(0, 36, 44);
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 30px
+}
+
+nav:hover {
+    background-color: black;
+    transform: rotateX(20deg);
+    transition: all 1s;
+}
+
+#middel{
+    justify-content:space-between ;
+    
+    display: flex;
+
+}
+
+#middel img {
+    height: auto;
+    width: 100%;
+
+
+}
+#contact{
+
+    border: 3px solid rgb(1, 17, 28);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contact:hover {
+    background-color: rgb(35, 2, 55);
+    transition: all 4s;
+    transform: rotate(360deg);
+    transition: all 5s;
+}
+
+
+
+a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+button {
+    border-radius: 50px;
+    border: 1px solid;
+        padding: 10px;
+        transition: all 1s;
+}
+
+button:hover {
+    background-color: rgb(5, 37, 45);
+    transition: all 1s;
+}
+
+#final {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+@media (max-width : 750px) {
+    #final{
+        width: 300px;
+    }
+    #contact{
+        width: 300px;
+    }
+    #middle{
+        width: 300px;
+    }
+    
+}
